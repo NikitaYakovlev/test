@@ -1,17 +1,23 @@
-name: 'NEW'
+name: 'Laveg'
 type: theme
 core: 8.x
 description: 'Custom theme based Classy'
-#base theme: classy # specify the classy as the base theme.
+base theme: classy # specify the classy as the base theme.
 
 # Inclide CSS and JS libraries to the theme,
 # specified in the file name_theme.libraries.yml.
 # And also a CSS connection for your own theme styles.
 libraries:
-  - qwert/helloworld
+  - laveg/helloworld
 
 # Regions
 regions:
   header: 'Header'
+  primary_menu: 'Primary menu'
+  slidebar: 'Slidebar'
   content: 'Content'
+  services: 'Services'
+  about_us_area: 'About Us'
+  secondary_menu: 'Secondary menu'
   footer: 'Footer'
+

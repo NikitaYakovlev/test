@@ -49,6 +49,14 @@
 
   </header>
 
+  {{ page.primary_menu }}
+
+  {% if page.slidebar %}
+      <div id="my-region">
+          {{ page.slidebar }}
+      </div>
+  {% endif %}
+
   <main role="main">
 
     <div class="layout-content">
@@ -56,6 +64,20 @@
     </div>{# /.layout-content #}
 
   </main>
+
+  {% if page.services %}
+      <div id="my-region">
+          {{ page.services }}
+      </div>
+  {% endif %}
+
+  {% if page.about_us_area %}
+      <div id="my-region">
+          {{ page.about_us_area }}
+      </div>
+  {% endif %}
+
+  {{ page.secondary_menu }}
 
   {% if page.footer %}
     <footer role="contentinfo">
