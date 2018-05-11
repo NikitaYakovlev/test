@@ -1,0 +1,60 @@
+.menu--header-menu {
+  width: 54%;
+  float: right;
+  margin-top: 3%;
+  .menu {
+    //height: 2vw;
+    height: 1.9vw; //
+    display: flex;
+    margin: 0;
+
+   // float: right;
+    li {
+      text-align: center;
+      flex-basis: auto;
+      flex-grow: 1;
+      display: inline-block;
+      background: url("../../sprite/headsprite.png") no-repeat;
+      background-size: 1.9vw;
+      margin-left: auto;
+      margin: 0px 0px 0 10px;
+      a {
+        font-size: 0.9em;
+        text-decoration: none;
+        float: right;
+        margin-left: 1.5vw;
+      }
+    }
+    li:first-child {
+      background-position: 0px 0px;
+      height: 80%;
+    }
+    li:nth-child(2) {
+      background-position: 0px -1.7vw;
+      background-size: 1.8vw;
+    }
+    li:nth-child(3) {
+      background-position: 0px -3.8vw;
+    }
+  }
+}
+
+
+
+#block-phonenumberinheader {  // @todo add class
+  float: right;
+  display: inline-block;
+  margin-top: 5%;
+  width: 45%;
+  .field--name-field-phone-img {
+    float: left;
+    margin: 0 5% 5% 35%;
+  }
+  .field--name-field-number-phone {
+    font-family: 'RalewayRegular';
+    font-size: 2vw;
+    text-align: right;
+    white-space: nowrap;
+    color: #295f75;
+  }
+}

@@ -24,3 +24,11 @@
 @import "./objects/nav";
 
 /* Components */
+// Fonts
+
+@font-face{
+  font-family: 'RalewayRegular';
+  src: url('../fonts/raleway-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

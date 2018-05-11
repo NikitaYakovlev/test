@@ -33,10 +33,20 @@ $col-gutter: $container-gutter;
   padding-left: $col-gutter;
 }
 
-#block-qwert-search {
-  color: red;
+.layout-container {
+  width: 60%;
+  margin-left: 20%;
 }
 
-.contextual-region {
-  color: red;
+.region-header {
+  display: flow-root;
+  height: 140px;
 }
+
+#block-logo {
+  margin-top: 8%;
+  width: 30%;
+  margin-right: 1%;
+  float: left;
+}
+
