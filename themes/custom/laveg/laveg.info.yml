@@ -16,6 +16,7 @@ regions:
   primary_menu: 'Primary menu'
   slidebar: 'Slidebar'
   content: 'Content'
+  horizontal_sidebar: 'Horizontal sidebar'
   services: 'Services'
   about_us_area: 'About Us'
   secondary_menu: 'Secondary menu'

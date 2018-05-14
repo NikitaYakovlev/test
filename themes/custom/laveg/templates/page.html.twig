@@ -52,7 +52,7 @@
   {{ page.primary_menu }}
 
   {% if page.slidebar %}
-      <div id="my-region">
+      <div id="slidebar-region">
           {{ page.slidebar }}
       </div>
   {% endif %}
@@ -65,14 +65,20 @@
 
   </main>
 
+  {% if page.horizontal_sidebar %}
+      <div id="horizontal-sidebar">
+          {{ page.horizontal_sidebar }}
+      </div>
+  {% endif %}
+
   {% if page.services %}
-      <div id="my-region">
+      <div id="services-region">
           {{ page.services }}
       </div>
   {% endif %}
 
   {% if page.about_us_area %}
-      <div id="my-region">
+      <div id="about-us-area-region">
           {{ page.about_us_area }}
       </div>
   {% endif %}
