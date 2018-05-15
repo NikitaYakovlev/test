@@ -1,0 +1,32 @@
+.region-footer {
+  background-color: #000;
+  padding:3% 20% 1% 20%;
+  display: inline-block;
+  color: white;
+  a {
+    color: #fff;
+  }
+}
+
+#block-lavegde {
+  font-family: 'Istok Web', sans-serif;
+  font-weight: 600;
+  float: left;
+  .field__item {
+    margin: 0;
+    font-size: 4vw;
+  }
+}
+
+#block-footertextblock{
+  float: right;
+  font-size: 0.9vw;
+  width: 50%;;
+}
+
+#block-2014lavegdeallrightreserved {
+  width: 100%;
+  display: inherit;
+  font-size: 0.7vw;
+}
+

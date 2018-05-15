@@ -1,4 +1,5 @@
-
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@charset "UTF-8";
 /* Vendors */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -511,6 +512,9 @@ a {
   background: linear-gradient(to top, #000, #333, #000);
   padding: 1px; }
 
+.feed-icon {
+  display: none; }
+
 #block-logo {
   margin-top: 6%;
   width: 30%;
@@ -539,9 +543,10 @@ a {
     color: #7b7b80; }
 
 .region-content {
-  width: 60%;
-  margin-left: 20%;
-  margin-bottom: 3%; }
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 3%;
+  min-height: 47vh; }
   .region-content .views_slideshow_main .views-field-field-welcom-area-content-image {
     float: left; }
   .region-content .views_slideshow_main .views-field-body {
@@ -566,23 +571,107 @@ a {
   display: none; }
 
 .region-horizontal-sidebar {
-  padding: 20px 0 20px 0;
+  padding: 20px 20% 20px 20%;
   background: -webkit-linear-gradient(90deg, #ececec 0%, #f4f4f4 100%); }
-  .region-horizontal-sidebar .block-views {
-    margin-left: 20%;
-    width: 60%; }
-    .region-horizontal-sidebar .block-views .views-col {
-      text-align: center; }
-      .region-horizontal-sidebar .block-views .views-col .field-content {
-        padding: 10px; }
-      .region-horizontal-sidebar .block-views .views-col .views-field-field-title-in-horizontal-block a {
-        font-size: 1.4em;
-        color: #B60C17; }
-      .region-horizontal-sidebar .block-views .views-col .views-field-field-link-in-horizontal-block a {
+  .region-horizontal-sidebar .block-views .views-col {
+    text-align: center; }
+    .region-horizontal-sidebar .block-views .views-col .field-content {
+      padding: 10px; }
+    .region-horizontal-sidebar .block-views .views-col .views-field-field-title-in-horizontal-block a {
+      font-size: 1.5vw;
+      color: #B60C17; }
+    .region-horizontal-sidebar .block-views .views-col .views-field-body {
+      overflow: hidden;
+      height: 5.5em; }
+    .region-horizontal-sidebar .block-views .views-col .views-field-field-link-in-horizontal-block a {
+      background-color: #B60C17;
+      color: #fff;
+      border-radius: 8px;
+      padding: 10px 35px 10px 35px; }
+
+.region-services {
+  padding: 10px 20% 20px 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #7b7b80; }
+  .region-services #block-services {
+    grid-column: 1 / 4; }
+  .region-services .block-menu {
+    color: #B60C17; }
+    .region-services .block-menu .menu {
+      width: 89%;
+      margin: 0; }
+      .region-services .block-menu .menu .menu-item {
+        border-bottom: 1px #cbcbcb solid;
+        height: 33px;
+        padding-top: 6px;
+        display: table;
+        width: 100%; }
+        .region-services .block-menu .menu .menu-item a {
+          color: #676767; }
+        .region-services .block-menu .menu .menu-item a:hover {
+          color: #B60C17; }
+      .region-services .block-menu .menu li:before {
+        color: #B60C17;
+        content: "\25B8";
+        padding-right: 5px; }
+    .region-services .block-menu .menu-item:last-child {
+      border-bottom: none; }
+
+.region-about-us-area {
+  color: white;
+  padding: 3% 20% 0 20%;
+  background: url("../assets/Layer 2342.jpg") no-repeat;
+  display: inline-block; }
+  .region-about-us-area .block-block-content {
+    width: 50%;
+    float: right;
+    line-height: 28px; }
+    .region-about-us-area .block-block-content .field--name-body {
+      overflow: hidden;
+      height: 10em; }
+    .region-about-us-area .block-block-content .field--name-field-link-basic-block {
+      line-height: 8em; }
+      .region-about-us-area .block-block-content .field--name-field-link-basic-block a {
         background-color: #B60C17;
         color: #fff;
         border-radius: 8px;
         padding: 10px 20px 10px 20px; }
+
+.region-secondary-menu .field--type-link {
+  text-align: center;
+  font-size: 23px; }
+
+.menu--lower-menu .menu {
+  height: 70px;
+  padding-top: 21px;
+  display: flex;
+  margin: 0;
+  padding-right: 20%;
+  padding-left: 20%;
+  background-color: #292929; }
+  .menu--lower-menu .menu li {
+    text-align: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    display: inline-block;
+    background: url(../assets/lowersprite.png) no-repeat;
+    background-size: 1.9vw;
+    margin-left: 1vw;
+    height: 2vw; }
+    .menu--lower-menu .menu li a {
+      color: #fff;
+      font-size: 0.7em;
+      margin-left: 1.5vw; }
+  .menu--lower-menu .menu li:first-child {
+    background-position: 0px 0px; }
+  .menu--lower-menu .menu li:nth-child(2) {
+    background-position: 0px -2vw;
+    background-size: 1.8vw; }
+  .menu--lower-menu .menu li:nth-child(3) {
+    background-position: 0px -4.8vw; }
+  .menu--lower-menu .menu li:nth-child(4) {
+    background-position: 0px -7vw; }
 
 /* Objects */
 h1,
@@ -621,7 +710,6 @@ p:last-child {
       display: inline-block;
       background: url(../assets/headsprite.png) no-repeat;
       background-size: 1.9vw;
-      margin-left: auto;
       margin: 0px 0px 0 10px; }
       .menu--header-menu .menu li a {
         font-size: 0.9em;
@@ -636,26 +724,51 @@ p:last-child {
     .menu--header-menu .menu li:nth-child(3) {
       background-position: 0px -3.8vw; }
 
-#block-phonenumberinheader {
+.block-phone-number {
   float: right;
   display: inline-block;
   width: 45%;
   border-bottom: 1px solid;
   border-image: linear-gradient(to right, #ffffff, #90acaa, #6A9393, #ffffff) 47% 0%; }
-  #block-phonenumberinheader .field--name-field-phone-img {
+  .block-phone-number img {
     float: left;
-    margin-left: 30%; }
-    #block-phonenumberinheader .field--name-field-phone-img img {
-      height: 5vw;
-      width: auto;
-      padding: 19%;
-      border-bottom: 2px solid #2d6075; }
-  #block-phonenumberinheader .field--name-field-number-phone {
+    margin-left: 30%;
+    height: 5vw;
+    width: auto;
+    padding: 19%;
+    border-bottom: 2px solid #2d6075; }
+  .block-phone-number .field--name-field-number-phone {
     font-family: 'RalewayRegular';
     font-size: 2vw;
     text-align: right;
     white-space: nowrap;
     color: #295f75; }
+
+.region-footer {
+  background-color: #000;
+  padding: 3% 20% 1% 20%;
+  display: inline-block;
+  color: white; }
+  .region-footer a {
+    color: #fff; }
+
+#block-lavegde {
+  font-family: 'Istok Web', sans-serif;
+  font-weight: 600;
+  float: left; }
+  #block-lavegde .field__item {
+    margin: 0;
+    font-size: 4vw; }
+
+#block-footertextblock {
+  float: right;
+  font-size: 0.9vw;
+  width: 50%; }
+
+#block-2014lavegdeallrightreserved {
+  width: 100%;
+  display: inherit;
+  font-size: 0.7vw; }
 
 /* Components */
 @font-face {
