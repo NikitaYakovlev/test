@@ -40,17 +40,14 @@
   width: 45%;
   border-bottom: 1px solid;
   border-image: linear-gradient(to right, #ffffff, #90acaa, #6A9393, #ffffff ) 47% 0%;
-
-    img {
-      float: left;
-      margin-left: 30%;
-      height: 6vw;
-      width: auto;
-      padding-top: 19px;                      // @todo переписать
-      padding-bottom: 12px;
-      border-bottom: 2px solid #2d6075;
-    }
-
+  img {
+    float: left;
+    height: 5vw;
+    width: auto;
+    padding: 2%;
+    margin-left: 30%;
+    border-bottom: 2px solid #2d6075;
+  }
   .field--name-field-number-phone {
     font-family: 'RalewayRegular';
     font-size: 2vw;

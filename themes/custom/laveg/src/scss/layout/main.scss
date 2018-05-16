@@ -87,7 +87,6 @@ $col-gutter: $container-gutter;
   padding-left: 20%;
   padding-right: 20%;
   margin-bottom: 3%;
-  min-height: 47vh;
   .views_slideshow_main {
     .views-field-field-welcom-area-content-image {
       float: left;
@@ -270,6 +269,76 @@ $col-gutter: $container-gutter;
     }
     li:nth-child(4) {
       background-position: 0px -7vw;
+    }
+  }
+}
+
+.block--form-header {
+  position: absolute;
+  width: 18vw;
+  margin: -38em 0 0 61.2vw;
+  z-index: 10;
+  background-color: #e33;
+  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.9);
+  .field--name-field-title-1 {
+    background: url("../../src/img/shield.png") no-repeat;
+    background-size: 2.3vw;
+    color: white;
+    font-size: 0.97vw;
+    background-color: #B60C17;
+    background-position: 5% 50%;
+    padding: 3.7% 3.7% 3.7% 21%;
+  }
+  .field--name-field-title-2 {
+    background-color: #B60C17;
+    color: white;
+    font-size: 0.84vw;
+    padding: 0 3.7% 3.7% 3.7%;
+    border-bottom: #000 5px solid;
+  }
+  .field--name-field-selection {
+    font-size: 0.8vw;
+    padding: 3.7% 3.7% 22% 3.7%;
+    background: -webkit-linear-gradient(90deg, #e0e0e0 50%, #d4d4d4 78%);
+  }
+  .field--name-field-select-one {
+    position: absolute;
+    margin-top: -3.3em;
+    margin-left: 3.7%;
+    background-color: #222;
+    padding: 2% 5% 1% 5%;
+    color: white;
+    font-size: 0.9vw;
+  }
+  .field--name-field-select-one:after {
+    content:" ";
+    width: 15em;
+    background-color: #fff;
+    height: 30%;
+    position: absolute;
+    z-index: 0;
+    margin-top: -1em;
+    margin-left: 60%;
+  }
+  .field--name-field-select-two {
+    @extend .field--name-field-select-one;
+    margin-left: 83%;
+    background-color: #B60C17;
+  }
+  .field--name-field-select-two:after {
+    all: initial;
+  }
+  h4 {
+    font-size: 0.9vw;
+    margin-bottom: 0;
+  }
+  .field--name-field-options {
+    padding: 3.7%;
+    font-size: 0.9vw;
+    line-height: 2em;
+    background: linear-gradient(to top, #d8d8d8, #ffffff, #f2f2f2);
+    input[type=radio]:checked {
+      background: green;
     }
   }
 }
