@@ -594,35 +594,7 @@ a {
   padding: 10px 20% 20px 20%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  color: #7b7b80;
-  /*{
-    color: #B60C17;
-    .menu {
-      width: 89%;
-      margin: 0;
-      .menu-item {
-        border-bottom: 1px #cbcbcb solid;
-        height: 33px;
-        padding-top: 6px;
-        display: table;
-        width: 100%;
-        a {
-          color: #676767;
-        }
-        a:hover {
-          color: #B60C17;
-        }
-      }
-      li:before {
-        color: #B60C17;
-        content: "▸";
-        padding-right: 5px;
-      }
-    }
-    .menu-item:last-child {
-      border-bottom: none;
-    }
-  }*/ }
+  color: #7b7b80; }
 
 .menu--menu-services-column-1, .menu--menu-services-column-2, .menu--menu-services-column-3 {
   color: #B60C17; }

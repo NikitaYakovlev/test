@@ -165,35 +165,6 @@ $col-gutter: $container-gutter;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: rgb(123, 123, 128);
- // .block-menu
-  /*{
-    color: #B60C17;
-    .menu {
-      width: 89%;
-      margin: 0;
-      .menu-item {
-        border-bottom: 1px #cbcbcb solid;
-        height: 33px;
-        padding-top: 6px;
-        display: table;
-        width: 100%;
-        a {
-          color: #676767;
-        }
-        a:hover {
-          color: #B60C17;
-        }
-      }
-      li:before {
-        color: #B60C17;
-        content: "▸";
-        padding-right: 5px;
-      }
-    }
-    .menu-item:last-child {
-      border-bottom: none;
-    }
-  }*/
 }
 
 .menu--menu-services-column-1 {
@@ -231,12 +202,11 @@ $col-gutter: $container-gutter;
   @extend .menu--menu-services-column-1;
 }
 
-
 #block-services {                                             //@todo class
   grid-column: 1 / 4;
 }
 
-.region-about-us-area {
+.region-about-us-area {                                       //@todo regions
   color: white;
   padding: 3% 20% 0 20%;
   background: url("../../src/img/Layer 2342.jpg") no-repeat;
