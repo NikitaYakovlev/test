@@ -1,3 +1,32 @@
+#block-logo {
+  margin-top: 6%;
+  width: 30%;
+  float: left;
+}
+
+.block-phone-number {
+  float: right;
+  display: inline-block;
+  width: 45%;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #ffffff, #90acaa, #6A9393, #ffffff ) 47% 0%;
+  img {
+    float: left;
+    height: 5vw;
+    width: auto;
+    padding: 2%;
+    margin-left: 30%;
+    border-bottom: 2px solid #2d6075;
+  }
+  .field--name-field-number-phone {
+    font-family: 'RalewayRegular';
+    font-size: 2vw;
+    text-align: right;
+    white-space: nowrap;
+    color: #295f75;
+  }
+}
+
 .menu--header-menu {
   width: 54%;
   float: right;
@@ -31,28 +60,5 @@
     li:nth-child(3) {
       background-position: 0px -3.8vw;
     }
-  }
-}
-
-.block-phone-number {
-  float: right;
-  display: inline-block;
-  width: 45%;
-  border-bottom: 1px solid;
-  border-image: linear-gradient(to right, #ffffff, #90acaa, #6A9393, #ffffff ) 47% 0%;
-  img {
-    float: left;
-    height: 5vw;
-    width: auto;
-    padding: 2%;
-    margin-left: 30%;
-    border-bottom: 2px solid #2d6075;
-  }
-  .field--name-field-number-phone {
-    font-family: 'RalewayRegular';
-    font-size: 2vw;
-    text-align: right;
-    white-space: nowrap;
-    color: #295f75;
   }
 }
