@@ -515,6 +515,9 @@ a {
 .feed-icon {
   display: none; }
 
+.view-main-background-view img {
+  width: 100vw; }
+
 .menu--main {
   text-transform: uppercase;
   width: 42%;
@@ -542,19 +545,25 @@ a {
   padding-right: 20%;
   margin-bottom: 3%; }
 
-.views_slideshow_main .views-field-field-welcom-area-content-image {
+.view-id-welcom_area_content_slider .views-field-field-welcom-area-content-image {
   float: left; }
 
-.views_slideshow_main .views-field-body {
-  margin-left: 42%;
-  color: #4b5b55; }
+.view-id-welcom_area_content_slider .views-field-body {
+  width: 35vw;
+  overflow: hidden;
+  height: 170px;
+  color: #4b5b55;
+  padding-left: 2%;
+  /* float: right; */
+  position: absolute;
+  margin-left: 336px; }
 
 .views-slideshow-controls-bottom a {
   height: 60px;
   width: 0.3vw;
   background-color: #a7020a;
   position: absolute;
-  margin-top: -8em;
+  margin-top: -110px;
   text-indent: -9999px; }
 
 .views-slideshow-controls-bottom .views-slideshow-controls-text-previous-processed a {
@@ -562,7 +571,7 @@ a {
 
 .views-slideshow-controls-bottom .views-slideshow-controls-text-next-processed a {
   margin-left: 23.85em;
-  z-index: 100; }
+  z-index: 10; }
 
 .views-slideshow-controls-bottom .views-slideshow-controls-text-pause-processed {
   display: none; }
@@ -679,7 +688,7 @@ a {
 .block--form-header {
   position: absolute;
   width: 18vw;
-  margin: -38em 0 0 61.2vw;
+  margin: -5em 0 0 61.2vw;
   z-index: 10;
   background-color: #e33;
   box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.9); }
@@ -876,7 +885,7 @@ p:last-child {
   display: inherit;
   font-size: 0.7vw; }
 
-/* Components */
+/* Fonts */
 @font-face {
   font-family: 'RalewayRegular';
   src: url(../assets/raleway-regular.ttf) format("truetype");

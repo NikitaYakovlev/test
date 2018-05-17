@@ -49,6 +49,11 @@ $col-gutter: $container-gutter;
     display: none;
 }
 
+.view-main-background-view {
+  img {
+    width: 100vw;
+  }
+}
 .menu--main {
   text-transform: uppercase;
   width: 42%;
@@ -83,23 +88,27 @@ $col-gutter: $container-gutter;
   margin-bottom: 3%;
 }
 
-.views_slideshow_main {
+.view-id-welcom_area_content_slider {
   .views-field-field-welcom-area-content-image {
     float: left;
   }
   .views-field-body {
-    margin-left: 42%;
-    color: rgb(75, 91, 85);
+    width: 35vw;
+    overflow: hidden;
+    height: 170px;
+    color: #4b5b55;
+    padding-left: 2%;
+    position: absolute;
+    margin-left: 336px;
   }
 }
-
 .views-slideshow-controls-bottom {
   a {
     height: 60px;
     width: 0.3vw;
     background-color: rgb(167, 2, 10);
     position: absolute;
-    margin-top: -8em;
+    margin-top: -110px;
     text-indent: -9999px;
   }
   .views-slideshow-controls-text-previous-processed {
@@ -110,7 +119,7 @@ $col-gutter: $container-gutter;
   .views-slideshow-controls-text-next-processed {
     a {
       margin-left: 23.85em;
-      z-index: 100;
+      z-index: 10;
     }
   }
   .views-slideshow-controls-text-pause-processed {
@@ -281,7 +290,8 @@ $col-gutter: $container-gutter;
 .block--form-header {
   position: absolute;
   width: 18vw;
-  margin: -38em 0 0 61.2vw;
+  margin: -5em 0 0 61.2vw;
+ // margin: -38em 0 0 61.2vw;
   z-index: 10;
   background-color: #e33;
   box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.9);

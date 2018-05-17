@@ -88,6 +88,16 @@ $analytics-total-width: 1540px;
 $analytics-total-height: 1540px;
 $analytics-image: '../../img/sprite.png';
 $analytics: 514px 1028px -514px -1028px 512px 512px 1540px 1540px '../../img/sprite.png';
+$headsprite-x: 1028px;
+$headsprite-y: 1028px;
+$headsprite-offset-x: -1028px;
+$headsprite-offset-y: -1028px;
+$headsprite-width: 30px;
+$headsprite-height: 90px;
+$headsprite-total-width: 1540px;
+$headsprite-total-height: 1540px;
+$headsprite-image: '../../img/sprite.png';
+$headsprite: 1028px 1028px -1028px -1028px 30px 90px 1540px 1540px '../../img/sprite.png';
 
 /*
 The provided mixins are intended to be used with the array-like variables
