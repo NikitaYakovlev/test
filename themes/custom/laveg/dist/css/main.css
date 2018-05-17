@@ -554,7 +554,6 @@ a {
   height: 170px;
   color: #4b5b55;
   padding-left: 2%;
-  /* float: right; */
   position: absolute;
   margin-left: 336px; }
 
@@ -627,7 +626,7 @@ a {
   .menu--menu-services-column-1 .menu-item:last-child, .menu--menu-services-column-2 .menu-item:last-child, .menu--menu-services-column-3 .menu-item:last-child {
     border-bottom: none; }
 
-#block-services {
+.region-services .block-services {
   grid-column: 1 / 4; }
 
 .region-about-us-area {
@@ -805,7 +804,7 @@ h6 {
 p:last-child {
   margin-bottom: 0; }
 
-#block-logo {
+.block-logo {
   margin-top: 6%;
   width: 30%;
   float: left; }
@@ -867,20 +866,20 @@ p:last-child {
   .region-footer a {
     color: #fff; }
 
-#block-lavegde {
+.block-lavegde {
   font-family: 'Istok Web', sans-serif;
   font-weight: 600;
   float: left; }
-  #block-lavegde .field__item {
+  .block-lavegde .field__item {
     margin: 0;
     font-size: 4vw; }
 
-#block-footertextblock {
+.block-footer-text-block {
   float: right;
   font-size: 0.9vw;
   width: 50%; }
 
-#block-2014lavegdeallrightreserved {
+.block-lavege-reserved {
   width: 100%;
   display: inherit;
   font-size: 0.7vw; }

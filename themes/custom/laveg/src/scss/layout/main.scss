@@ -33,14 +33,14 @@ $col-gutter: $container-gutter;
   padding-left: $col-gutter;
 }
 
-.region-header {                                                //@todo regions
+.region-header {
   display: flow-root;
   height: 140px;
   width: 60%;
   margin-left: 20%;
 }
 
-.region-primary-menu {                                            //@todo regions
+.region-primary-menu {
   background: linear-gradient(to top, #000, #333, #000);
   padding: 1px;
 }
@@ -82,7 +82,7 @@ $col-gutter: $container-gutter;
   }
 }
 
-.region-content {                                 //@todo regions
+.region-content {
   padding-left: 20%;
   padding-right: 20%;
   margin-bottom: 3%;
@@ -127,7 +127,7 @@ $col-gutter: $container-gutter;
   }
 }
 
-.contextual-region {                                          //@todo regions xz
+.contextual-region {
   .view-display-id-page_1 {
     .feed-icons {
       a {
@@ -137,7 +137,7 @@ $col-gutter: $container-gutter;
   }
 }
 
-.region-horizontal-sidebar {                                            //@todo regions
+.region-horizontal-sidebar {
   padding: 20px 20% 20px 20%;
   background: -webkit-linear-gradient(90deg, #ececec 0%, #f4f4f4 100%);
 }
@@ -169,7 +169,7 @@ $col-gutter: $container-gutter;
   }
 }
 
-.region-services {                                                //@todo regions
+.region-services {
   padding: 10px 20% 20px 20%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -211,11 +211,13 @@ $col-gutter: $container-gutter;
   @extend .menu--menu-services-column-1;
 }
 
-#block-services {                                             //@todo class
-  grid-column: 1 / 4;
+.region-services {
+  .block-services {
+    grid-column: 1 / 4;
+  }
 }
 
-.region-about-us-area {                                       //@todo regions
+.region-about-us-area {
   color: white;
   padding: 3% 20% 0 20%;
   background: url("../../src/img/Layer 2342.jpg") no-repeat;
@@ -261,7 +263,7 @@ $col-gutter: $container-gutter;
       flex-basis: auto;
       flex-grow: 1;
       display: inline-block;
-      background: url("../../sprite/lowersprite.png") no-repeat;
+      background: url("../../src/img/sprite/lowersprite.png") no-repeat;
       background-size: 1.9vw;
       margin-left: 1vw;
       height: 2vw;
@@ -291,7 +293,6 @@ $col-gutter: $container-gutter;
   position: absolute;
   width: 18vw;
   margin: -5em 0 0 61.2vw;
- // margin: -38em 0 0 61.2vw;
   z-index: 10;
   background-color: #e33;
   box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.9);
@@ -374,6 +375,7 @@ $col-gutter: $container-gutter;
   padding: 0 0 0 25px;
   cursor: pointer;
 }
+
 .radio + label:before {
   content: '';
   position: absolute;
@@ -385,6 +387,7 @@ $col-gutter: $container-gutter;
   border-radius: 50%;
   background: #FFF;
 }
+
 .radio + label:after {
   content: '';
   position: absolute;
@@ -396,6 +399,7 @@ $col-gutter: $container-gutter;
   background: #B60C17;
   opacity: 0;
 }
+
 .radio:checked + label:after {
   opacity: 1;
 }
